@@ -2,8 +2,9 @@
 
 FROM nhoag/nodejs
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
+MAINTAINER Jeff Simpson, jeff@syncrodoka.net
 
-ENV BOTVERSION 0.0.4
+ENV BOTVERSION master
 ENV BOTDIR /opt/bot-${BOTVERSION}
 ENV BOTARCHIVE https://github.com/fooblahblah/bot/archive/${BOTVERSION}.tar.gz
 
