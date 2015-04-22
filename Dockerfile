@@ -5,7 +5,7 @@ MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
 
 ENV BOTVERSION 0.0.4
 ENV BOTDIR /opt/bot-${BOTVERSION}
-ENV BOTARCHIVE https://github.com/nhoag/bot/archive/${BOTVERSION}.tar.gz
+ENV BOTARCHIVE https://github.com/fooblahblah/bot/archive/${BOTVERSION}.tar.gz
 
 RUN wget -q -O - ${BOTARCHIVE} | tar xz -C /opt
 
